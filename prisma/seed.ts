@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 
-const prisma: any = new PrismaClient();
+const prisma = new PrismaClient({});
 
 const posts = [
   {
